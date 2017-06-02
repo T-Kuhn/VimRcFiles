@@ -1,0 +1,23 @@
+" Use Vim settings, rather than Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+" jj key is <Esc> setting
+inoremap jj <Esc>
+
+" go to next "(" with this  
+nnoremap , ?(<cr>
+
+" go to next ")" with this  
+nnoremap . /(<cr>
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
+
+" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
+" so that you can undo CTRL-U after inserting a line break.
+inoremap <C-U> <C-G>u<C-U>
+
