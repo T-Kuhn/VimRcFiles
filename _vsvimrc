@@ -29,6 +29,9 @@ nnoremap <s-l> gt
 " go to the last tab
 nnoremap <s-h> gT
 
+" go to start of line
+nnoremap ; ^
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
