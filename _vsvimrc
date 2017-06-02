@@ -23,6 +23,12 @@ nnoremap <s-k> 10k
 " go to next ")" with this  
 nnoremap . /(<cr>
 
+" go to the next tab
+nnoremap <s-l> gt
+
+" go to the last tab
+nnoremap <s-h> gT
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
