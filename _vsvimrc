@@ -14,6 +14,15 @@ nnoremap , ?(<cr>
 " go to next ")" with this  
 nnoremap . /(<cr>
 
+" go down 10 lines with shift-j 
+nnoremap <s-j> 10j
+
+" go up 10 lines with shift-k 
+nnoremap <s-k> 10k
+
+" go to next ")" with this  
+nnoremap . /(<cr>
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 

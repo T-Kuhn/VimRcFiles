@@ -16,6 +16,9 @@ inoremap jj <Esc>
 nnoremap n  /\%V )
 nnoremap m  /\%V )
 
+nnoremap <s-j> 10j 
+nnoremap <s-k> 10k 
+
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
 else
