@@ -1,0 +1,4 @@
+here are a lot of colorschemes:
+https://github.com/flazz/vim-colorschemes
+
+jsut put them in the .vim/colors directory on the raspberry pi

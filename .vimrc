@@ -73,10 +73,10 @@ set guifont=FixedSys:h11
 " set guifont=Consolas:h11:cANSI
 
 
-let g:solarized_termcolors=256
-set t_Co=256
-colorscheme solarized
+" let g:solarized_termcolors=256
+" set t_Co=256
 set background=dark
+colorscheme lucid 
 
 " colorscheme desert
 
