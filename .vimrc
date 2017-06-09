@@ -76,6 +76,7 @@ set guifont=FixedSys:h11
 let g:solarized_termcolors=256
 set t_Co=256
 colorscheme solarized
+set background=dark
 
 " colorscheme desert
 
