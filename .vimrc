@@ -13,6 +13,30 @@ set backspace=indent,eol,start
 " jj key is <Esc> setting
 inoremap jj <Esc>
 
+" go to next "(" with this  
+nnoremap , ?(<cr>
+
+" go to next ")" with this  
+nnoremap . /(<cr>
+
+" go down 10 lines with shift-j 
+nnoremap <s-j> 10j
+
+" go up 10 lines with shift-k 
+nnoremap <s-k> 10k
+
+" go to next ")" with this  
+nnoremap . /(<cr>
+
+" go to the next tab
+nnoremap <s-l> gt
+
+" go to the last tab
+nnoremap <s-h> gT
+
+" go to start of line
+nnoremap ; ^
+
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
 else
