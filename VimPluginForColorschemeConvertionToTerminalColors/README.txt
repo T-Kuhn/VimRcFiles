@@ -1,0 +1,1 @@
+just place this in the ~/.vim/plugin folder

@@ -1,0 +1,1 @@
+Just doubleclick to get the putty session settings altered
