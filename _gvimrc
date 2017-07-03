@@ -28,6 +28,9 @@ nnoremap <s-k> 10k
 " go to next ")" with this  
 nnoremap . /(<cr>
 
+" for easier jump point use
+nnoremap <space> '
+
 " go to the next tab
 nnoremap <s-l> gt
 
