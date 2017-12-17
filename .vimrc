@@ -31,6 +31,12 @@ nnoremap <s-l> :tabn<cr>
 " go to previous tab with shift h
 nnoremap <s-h> :tabp<cr>
 
+" set tabindex to 0
+nnoremap <s-i> :tabm 0<cr>
+
+" toggle search result highlighting
+nnoremap <F3> :set hlsearch!<cr>
+
 " go to next ")" with this  
 nnoremap . /(<cr>
 
