@@ -35,7 +35,7 @@ nnoremap <s-h> :tabp<cr>
 nnoremap <s-i> :tabm 0<cr>
 
 " toggle search result highlighting
-nnoremap <F3> :set hlsearch!<cr>
+nnoremap <F3> :noh<cr>
 
 " go to next ")" with this  
 nnoremap . /(<cr>
