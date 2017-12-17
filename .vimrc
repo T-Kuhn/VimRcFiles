@@ -25,6 +25,12 @@ nnoremap <s-j> 10j
 " go up 10 lines with shift-k 
 nnoremap <s-k> 10k
 
+" go to next tab with shift l
+nnoremap <s-l> :tabn<cr>
+
+" go to previous tab with shift h
+nnoremap <s-h> :tabp<cr>
+
 " go to next ")" with this  
 nnoremap . /(<cr>
 
