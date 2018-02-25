@@ -1,0 +1,47 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"],
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [";"],
+            "after": ["^"]
+        },
+        {
+            "before": ["J"],
+            "after": ["1", "0", "j"]
+        },
+        {
+            "before": ["K"],
+            "after": ["1", "0", "k"]
+        },
+        {
+            "before": ["H"],
+            "after": [""],
+            "commands": [
+                {
+                    "command": "workbench.action.previousEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["L"],
+            "after": [""],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "window.zoomLevel": 0
+}
