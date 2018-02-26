@@ -1,5 +1,8 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
+    "editor.minimap.enabled": true,
+    "editor.codeLens": false,
+
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": false,
 
@@ -23,6 +26,10 @@
             "after": ["1", "0", "k"]
         },
         {
+            "before": ["<space>"],
+            "after": ["'"]
+        },
+        {
             "before": ["H"],
             "after": [""],
             "commands": [
@@ -43,5 +50,7 @@
             ]
         }
     ],
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.colorTheme": "Visual Studio Dark"
 }
