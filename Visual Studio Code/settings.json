@@ -1,37 +1,68 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
-    "editor.minimap.enabled": true,
+    "files.eol": "\n",
+    "files.encoding": "utf8bom",
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
     "editor.codeLens": false,
-
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": false,
-
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j", "j"],
-            "after": ["<Esc>"],
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ],
         }
     ],
     "vim.otherModesKeyBindingsNonRecursive": [
         {
-            "before": [";"],
-            "after": ["^"]
+            "before": [
+                ";"
+            ],
+            "after": [
+                "^"
+            ]
         },
         {
-            "before": ["J"],
-            "after": ["1", "0", "j"]
+            "before": [
+                "J"
+            ],
+            "after": [
+                "1",
+                "0",
+                "j"
+            ]
         },
         {
-            "before": ["K"],
-            "after": ["1", "0", "k"]
+            "before": [
+                "K"
+            ],
+            "after": [
+                "1",
+                "0",
+                "k"
+            ]
         },
         {
-            "before": ["<space>"],
-            "after": ["'"]
+            "before": [
+                "<space>"
+            ],
+            "after": [
+                "'"
+            ]
         },
         {
-            "before": ["H"],
-            "after": [""],
+            "before": [
+                "H"
+            ],
+            "after": [
+                ""
+            ],
             "commands": [
                 {
                     "command": "workbench.action.previousEditor",
@@ -40,8 +71,12 @@
             ]
         },
         {
-            "before": ["L"],
-            "after": [""],
+            "before": [
+                "L"
+            ],
+            "after": [
+                ""
+            ],
             "commands": [
                 {
                     "command": "workbench.action.nextEditor",
@@ -52,5 +87,20 @@
     ],
     "window.zoomLevel": 0,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Monokai",
+    "cSpell.userWords": [
+        "Grabbable",
+        "Mathf"
+    ],
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    }
 }
