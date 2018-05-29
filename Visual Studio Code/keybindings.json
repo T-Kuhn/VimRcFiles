@@ -4,5 +4,10 @@
         "key": "Ctrl+Shift+/",
         "command": "editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
     }
 ]
